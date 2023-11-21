@@ -7,5 +7,3 @@ const Hello = (app) => {
     })
   }
   export default Hello;
-  
-  
