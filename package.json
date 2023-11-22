@@ -2,32 +2,18 @@
   "type": "module",
   "name": "kanbas-node-server-app",
   "version": "1.0.0",
-  "description": "Node.js HTTP Web server for the Kanbas application",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "git repository: https://github.com/ElaineZhou-moon/kanbas-node-server-app",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ElaineZhou-moon/kanbas-node-server-app.git"
-  },
-  "keywords": [
-    "Node",
-    "Rest",
-    "Server",
-    "HTTP"
-  ],
-  "author": "Yilin Zhou",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ElaineZhou-moon/kanbas-node-server-app/issues"
-  },
-  "homepage": "https://github.com/ElaineZhou-moon/kanbas-node-server-app#readme",
   "dependencies": {
     "axios": "^1.6.2",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "express.js": "^1.0.0"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
   }
 }
