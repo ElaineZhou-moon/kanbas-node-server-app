@@ -9,7 +9,7 @@ import CourseRoutes from "./courses/routes.js";
 import ModuleRoutes from "./modules/routes.js";
 import mongoose from "mongoose";
 import UserRoutes from "./users/routes.js";
-const CONNECTION_STRING = "mongodb+srv://giuseppi:supersecretpassword@kanbasmongo.kfbng3h.mongodb.net/kanbas?retryWrites=true&w=majority" 
+const CONNECTION_STRING = "mongodb+srv://giuseppi:supersecretpassword@cluster0.8kq3u7p.mongodb.net/?retryWrites=true&w=majority" 
 mongoose.connect(CONNECTION_STRING);
 
 const app = express();
